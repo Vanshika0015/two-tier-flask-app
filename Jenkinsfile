@@ -44,7 +44,7 @@ pipeline{
         }
     }
 
-post{
+/*post{
         success{
             script{
                 emailext from: 'mentor@trainwithshubham.com',
@@ -61,5 +61,5 @@ post{
                 subject: 'Build Failed for Demo CICD App'
             }
         }
-    }
+    }*/
 }
